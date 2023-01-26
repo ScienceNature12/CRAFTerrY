@@ -1,0 +1,206 @@
+<html>
+
+<head>
+    <title>Crafterry</title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="keywords" content="slate, lamps, wood, rock, cribbage, cards, pegs">
+    <meta name="description" content="crafterry's store">
+    <meta name="author" content="Terry Green">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<script>
+    mybutton = document.getElementById("myBtn");
+
+
+    window.onscroll = function() {
+        scrollFunction()
+    };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+
+
+    function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+</script>
+
+
+<body>
+
+    <nav>
+
+        <div class="name">
+            <h1>CRAFTerrY</h1>
+        </div>
+        <input type="checkbox" id="menu-icon"><label for="menu-icon"></label>
+        <ul>
+            <a href="#lamps">
+                <li>Lamps</li>
+            </a>
+            <a href="#cb">
+                <li>Cribbage Boards</li>
+            </a>
+            <a href="#puzzle">
+                <li>Puzzle</li>
+            </a>
+            <a href="#footer">
+                <li>CONTACT ME</li>
+            </a>
+        </ul>
+    </nav>
+
+    <div class="about">
+        <div class="me">
+            <p>Photo of mom goes here</p> <img class="portrait">
+
+        </div>
+        <div class="bio">
+            <p>Bio about Mom goes here</p>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="lamps">
+        <a name="lamps"></a>
+        <div class="arts">
+            <h2>Lamps:</h2>
+            <p> Discription of lamps here
+            </p>
+
+        </div>
+        <div id="scapes">
+
+            <p>Replace images with that of lamps</p>
+
+            <a href="#img1">
+                <img class="imags" src="https://i.imgur.com/bWFYxIK.jpg" alt="photograph of a seascape of the pacific ocean">
+            </a>
+
+            <!-- lightbox container hidden with CSS -->
+            <a href="#scapes" class="lightbox" id="img1">
+                <span style="background-image: url('https://i.imgur.com/bWFYxIK.jpg')"></span>
+            </a>
+
+            <a href="#img2">
+                <img class="imags" src="https://i.imgur.com/414QYWp.jpg" alt="photograph of mattresses in an abandoned building">
+            </a>
+
+            <!-- lightbox container hidden with CSS -->
+            <a href="#scapes" class="lightbox" id="img2">
+                <span style="background-image: url('https://i.imgur.com/414QYWp.jpg')"></span>
+            </a>
+            <a href="#img3">
+                <img class="imags" src="https://i.imgur.com/TF2yAZW.jpg" alt="photograph of a road in Idaho">
+            </a>
+
+            <!-- lightbox container hidden with CSS -->
+            <a href="#scapes" class="lightbox" id="img3">
+                <span style="background-image: url('https://i.imgur.com/TF2yAZW.jpg')"></span>
+            </a>
+            <a href="#img4">
+                <img class="imags" src="https://i.imgur.com/JWJiLtf.jpg" alt="stars at night">
+            </a>
+            <!-- lightbox container hidden with CSS -->
+            <a href="#scapes" class="lightbox" id="img4">
+                <span style="background-image: url('https://i.imgur.com/JWJiLtf.jpg')"></span>
+            </a>
+
+            <a href="#img5">
+                <img class="imags" src="https://i.imgur.com/qCaWZsu.jpg" alt="photo of a bulding at night">
+            </a>
+
+            <!-- lightbox container hidden with CSS -->
+            <a href="#scapes" class="lightbox" id="img5">
+                <span style="background-image: url('https://i.imgur.com/qCaWZsu.jpg')"></span>
+            </a>
+            </a>
+            <a href="#img6">
+                <img class="imags" src="https://i.imgur.com/9sxlHuu.jpg" alt="photo of a Arizona at sunset">
+            </a>
+
+            <!-- lightbox container hidden with CSS -->
+            <a href="#scapes" class="lightbox" id="img6">
+                <span style="background-image: url('https://i.imgur.com/9sxlHuu.jpg')"></span>
+            </a>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="cb">
+        <div class="crib">
+            <a name="cb"></a>
+            <h2>Cribbage Boards:</h2>
+            <p>Cribbage board discription goes here</p>
+            <p>Photos of cribbage boards goes here</p>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="puzzle">
+        <div class="puzz">
+            <a name="puzzle"></a>
+            <h2>Puzzles:</h2>
+            <p>discription of puzzles goes here
+            </p>
+        </div>
+        <div id="puzzs">
+
+            <p>Replace photos with that of puzzles</p>
+            <a href="#img7">
+                <img class="imags" src="https://i.imgur.com/djnSMS3.png" alt="piano logo">
+            </a>
+
+            <!-- lightbox container hidden with CSS -->
+            <a href="#logo" class="lightbox" id="img7">
+                <span style="background-image: url('https://i.imgur.com/djnSMS3.png')"></span>
+            </a>
+            <a href="#img8">
+                <img class="imags" src="https://i.imgur.com/e4a1YxN.png" alt="music note logo">
+            </a>
+
+            <!-- lightbox container hidden with CSS -->
+            <a href="#logo" class="lightbox" id="img8">
+                <span style="background-image: url('https://i.imgur.com/e4a1YxN.png')"></span>
+            </a>
+            <a href="#img9">
+                <img class="imags" src="https://i.imgur.com/uipCEAb.png" alt="record logo">
+            </a>
+
+            <!-- lightbox container hidden with CSS -->
+            <a href="#logo" class="lightbox" id="img9">
+                <span style="background-image: url('https://i.imgur.com/uipCEAb.png')"></span>
+            </a>
+        </div>
+
+    </div>
+
+    </div>
+
+    <hr>
+
+    <footer>
+        <a name="footer"></a>
+
+        <span class="contact">
+      <p>Email:<a href="Mailto:crafterry@hotmail.com"> crafterry@hotmail.com</a> | Phone: <a href="tel:5092160755"> (509)2160755</a></p>
+    </span>
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
+
+        </div>
+    </footer>
+</body>
+
+</html>
